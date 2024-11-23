@@ -1,5 +1,5 @@
 root{
-    --heading-background-color:darkblue;
+    --heading-background-color:#f777;
 }
 nav {
     background-color: var(--heading-background-color);
