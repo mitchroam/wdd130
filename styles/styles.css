@@ -1,5 +1,11 @@
+root{
+    --heading-background-color:darkblue;
+}
+
+
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 nav a {
@@ -28,7 +34,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    background-color:aqua;
+    background-color: var(--heading-background-color);
     color:darkgreen;
     text-align:center;
 }
