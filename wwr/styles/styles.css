@@ -1,0 +1,83 @@
+
+    *{
+
+    }
+        body {
+        font-family: Bokor;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #6096ba;
+        padding: 10px 0;
+    }
+   
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .logo {
+        flex-grow: 1;
+        text-align: center;
+    }
+    .herodiv {
+        margin: 10px auto;
+        position: relative;
+        text-align: center; 
+    }
+    
+    .herodiv img {
+        object-fit: cover;
+        text-align: center;
+    }
+    
+    .stats {
+        position: absolute;
+        bottom: 20px;
+        left: 15px;
+        background: radial-gradient(#eee, #113faa);
+        border: 1px solid #000;
+        padding: 0.65rem;
+        box-shadow: 0 0 30px #111;
+        opacity: 0.9;
+    }   
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #6096ba;
+        color: #fff;
+    }
+    .footer-left {
+        font-size: 14px;
+    }
+    .footer-right a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    .footer-right a:hover {
+        color: #1da1f2; 
+    }
