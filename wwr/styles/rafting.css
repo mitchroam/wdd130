@@ -1,13 +1,13 @@
-/* Usar la fuente Lacquer */
+
 .title-lacquer {
     font-family: 'Lacquer', sans-serif;
     font-size: 2.5em;
     color: #333;
 }
 
-/* Usar la fuente Bokor */
-.paragraph-bokor {
-    font-family: 'Bokor', cursive;
+.paragraph-caveat {
+    font-family: 'caveat', cursive;
     font-size: 1.5em;
     color: #666;
 }
+
