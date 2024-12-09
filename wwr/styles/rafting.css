@@ -18,7 +18,9 @@
 }
 .employee1 {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
     width: 100%;
     max-width: 1200px;
