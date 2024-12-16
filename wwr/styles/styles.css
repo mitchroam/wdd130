@@ -124,10 +124,11 @@
         align-items: center;
         padding: 10px 20px;
         background-color: #6096ba;
-        color: #fff;
+        color: #274c77;
     }
     .footer-left {
-        font-size: 14px;
+        
+        font-size: 16px;
     }
     .footer-right a {
         margin: 0 10px;
